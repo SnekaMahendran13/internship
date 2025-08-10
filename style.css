@@ -14,7 +14,7 @@ body {
   margin: auto;
 }
 
-/* HEADER */
+
 header {
   background: #111;
   color: white;
@@ -47,7 +47,7 @@ header nav ul li a.active {
   color: #00bcd4;
 }
 
-/* HERO */
+
 .hero {
   background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') no-repeat center/cover;
   height: 100vh;
@@ -86,7 +86,7 @@ header nav ul li a.active {
   background: #0097a7;
 }
 
-/* SECTION */
+
 .section {
   padding: 60px 0;
 }
@@ -99,7 +99,7 @@ header nav ul li a.active {
   margin-bottom: 30px;
 }
 
-/* SKILLS */
+
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -114,7 +114,7 @@ header nav ul li a.active {
 }
 
 
-/* PROJECTS */
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -136,7 +136,6 @@ header nav ul li a.active {
   border-radius: 8px;
   margin-bottom: 15px;
 }
-/* Resume download styling (matching your site) */
 .resume-card {
   max-width: 900px;
   margin: 30px auto;
@@ -149,7 +148,6 @@ header nav ul li a.active {
   margin-bottom: 18px;
 }
 
-/* Button */
 .resume-download {
   display: inline-flex;
   align-items: center;
@@ -169,21 +167,18 @@ header nav ul li a.active {
   background: #0097a7;
 }
 
-/* SVG icon */
 .download-icon {
   width: 18px;
   height: 18px;
   color: #fff;
 }
 
-/* Responsive */
+
 @media (max-width: 600px) {
   .resume-card { padding: 18px; }
   .resume-download { width: 100%; justify-content: center; padding: 12px; }
 }
 
-
-/* Contact Section */
 #contact {
   background: #f9f9f9;
   padding: 50px 20px;
@@ -197,7 +192,6 @@ header nav ul li a.active {
   color: #333;
 }
 
-/* Form Styling */
 #contactForm {
   max-width: 500px;
   margin: 0 auto;
@@ -224,7 +218,6 @@ header nav ul li a.active {
   border-color: #007bff;
 }
 
-/* Button Styling */
 #contactForm button {
   background: #007bff;
   color: #fff;
@@ -239,7 +232,7 @@ header nav ul li a.active {
 #contactForm button:hover {
   background: #0056b3;
 }
-/* Contact Info Styling */
+
 .contact-info {
   background: white;
 
@@ -274,8 +267,6 @@ header nav ul li a.active {
   text-decoration: underline;
 }
 
-
-/* Responsive for mobile */
 @media (max-width: 768px) {
   .contact-info {
     max-width: 100%;
@@ -283,7 +274,6 @@ header nav ul li a.active {
   }
 }
 
-/* Mobile Responsive */
 @media (max-width: 600px) {
   #contactForm {
     padding: 15px;
@@ -294,7 +284,6 @@ header nav ul li a.active {
   }
 }
 
-/* FOOTER */
 footer {
   background: #111;
   color: white;
